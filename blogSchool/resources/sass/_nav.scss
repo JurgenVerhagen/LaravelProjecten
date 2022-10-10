@@ -1,0 +1,12 @@
+nav {
+    margin-top: 1%;
+    margin-left: 21%;
+    margin-right: 21%;
+    background-color: $tertiary;
+    border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $text-primary;
+    font-weight: bold;
+}

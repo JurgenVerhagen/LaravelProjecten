@@ -1,0 +1,50 @@
+.card {
+    box-shadow: $box-shadow;
+    border: 0px solid transparent;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+    &.card-primary {
+        background-color: $secondary;
+        border-radius: 10px;
+    }
+
+    &.card-secondary {
+        background-color: $text-primary;
+    }
+
+    &.card-header {
+        background-color: $tertiary;
+        color: $text-primary;
+        text-align: center;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+input {
+    transition-duration: 0.5s;
+    &:focus {
+        outline: none;
+        border: 1px solid $primary;
+    }
+    &:active {
+        border: 1px solid $primary;
+    }
+}
+
+.input-field,
+.input-field-update {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: $inputfield;
+    padding: 8px 10px;
+}
+
+.input-field {
+    width: 75%;
+}
+
+.input-field-update {
+    width: 15%;
+}
